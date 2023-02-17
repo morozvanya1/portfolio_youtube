@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.none {
+    display: none !important;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #556983;
+    /*background-image: url("/img/bg.jpg");
+    /*background-position: center; /* Center the image */
+    /*background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-size: cover; /* Resize the background image to cover the entire container */
+
+    display: flex;
+    flex-direction: column; 
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 130%;
+
+    margin: 0;
+    margin-bottom: 25px;
+
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.header-subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.header-arrow {
+    width: 48px;
+    height: 48px;
+    
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-arrow {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.down-arrow img {
+    width: 48px;
+    height: 48px;
+}
+
+.down-arrow:hover {
+    padding-bottom: 10px;
+    transition-duration: 0.2s;
+}
+
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-header {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 70px;
+
+    text-align: center;
+}
+
+.card {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    max-width: 540px;
+    padding: 30px;
+    background-color: #556983;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.card:hover {
+    opacity: 90%;
+    transition-duration: 0.5s;
+}
+
+.card:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card-block-img {
+    width: 480px;
+    height: 320px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #b1b1b1;
+
+    margin: 0;
+    margin-bottom: 13px;
+    margin-left: 5px;
+}
+
+.card p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: white;
+
+    margin: 0;
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #556983;
+
+    padding-top: 45px;
+    padding-bottom: 130px;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-col {
+    max-width: 325px;
+    flex-grow: 1;
+}
+
+.footer-copyright {
+    color: #b1b1b1;
+    line-height: 130%;
+    margin: 0 0 0 25px;
+}
+
+.footer-copyright-name {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-copyright p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-icons {
+    margin: 0 25px 0 0;
+}
+
+.footer-icons p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.footer-icons-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.footer-icons-row a {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-icons-invert {
+    filter: brightness(0) invert(1);
+}
+
+.footer-icons-row > * + * {
+    margin-left: 30px;
+}
+
+.footer-contacts {
+
+}
+
+.footer-button {
+    display: inline-block;
+
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+
+    height: 50px;
+    padding: 0 30px;
+    line-height: 44px;
+    padding-top: 12px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: white;
+    transition-duration: 0.5s;
+    color: #b1b1b1;
+    border: 3px solid #b1b1b1;
+}
+
+.footer-contacts p {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #b1b1b1;
+}

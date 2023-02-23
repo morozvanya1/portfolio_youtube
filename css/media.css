@@ -128,7 +128,7 @@
 
 @media (max-width: 600px) {
     .header {
-        height: 95vh;
+        height: 90vh;
     }
 
     .header-title {
@@ -201,7 +201,7 @@
     .footer-col {
         margin: 0;
         margin-bottom: 5px;
-        max-width: 360px;
+        max-width: 600px;
         flex-grow: 0;
     }
 
